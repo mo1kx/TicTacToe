@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #333;
+    font-size: 36px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    vertical-align: middle;
+    line-height: 100px; /* Центрирование текста по вертикали */
+}
+
+td:hover {
+    background-color: #e0e0e0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #d9534f;
+}
